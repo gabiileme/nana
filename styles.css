@@ -2,10 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
 
 :root {
-    --laranja-claro: #FF862A;
+    --laranja-claro: #ad168d;
     --alto-contraste-fundo: #000000;
     --alto-contraste-texto: #ffffff;
-    --alto-contraste-link: #ffd700;
+    --alto-contraste-link: #b700ff;
 }
 
 body {
@@ -73,6 +73,13 @@ section {
     text-shadow: -5px 5px var(--laranja-claro);
 }
 
+.cavalo {
+    padding-top: 5rem;
+    padding-right: 5rem;
+    padding-left: 10px;
+    padding-bottom: 500px;
+    width: 1100px;
+}
 
 #tropicalia {
     position: relative;
@@ -80,7 +87,7 @@ section {
     margin-top: 3rem;
     margin-bottom: 3rem;
     background: url('img/copo.webp') top right no-repeat,
-        url('img/copo.wepb') bottom left no-repeat;
+    url('img/renflower.jpg') bottom left no-repeat;
     background-size: 180px 180px;
     /* Ajuste o tamanho conforme necessário */
 }
